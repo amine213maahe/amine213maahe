@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">AMINE — Retro Modern Game Developer</title>
+<desc id="desc">Retro game interface in black and neon green.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#050805"/>
+    <stop offset="0.55" stop-color="#0a160c"/>
+    <stop offset="1" stop-color="#07120a"/>
+  </linearGradient>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#16a34a"/>
+    <stop offset="1" stop-color="#39ff14"/>
+  </linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#39ff14" stroke-opacity=".12" stroke-width="1"/>
+  </pattern>
+  <filter id="soft"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+<path d="M0 285 L220 214 L390 258 L590 151 L790 244 L1010 167 L1200 222 V360 H0Z" fill="#0b2111" opacity=".9"/>
+<path d="M0 309 L220 238 L390 282 L590 175 L790 268 L1010 191 L1200 246" fill="none" stroke="#16a34a" stroke-opacity=".65" stroke-width="2"/>
+<path d="M0 330 L220 259 L390 303 L590 196 L790 289 L1010 212 L1200 267" fill="none" stroke="#39ff14" stroke-opacity=".32" stroke-width="1"/>
+<rect x="44" y="42" width="1112" height="276" rx="12" fill="none" stroke="url(#glow)" stroke-opacity=".85" stroke-width="2"/>
+<rect x="60" y="58" width="12" height="12" fill="#39ff14"/>
+<rect x="78" y="58" width="12" height="12" fill="#16a34a"/>
+<rect x="96" y="58" width="12" height="12" fill="#a3e635"/>
+<text x="76" y="116" font-family="monospace" font-size="16" letter-spacing="4" fill="#86efac">PLAYER 01 / DEVELOPER PROFILE</text>
+<text x="72" y="190" font-family="monospace" font-size="62" font-weight="700" letter-spacing="1" fill="#f0fdf4">AMINE.EXE</text>
+<rect x="74" y="210" width="470" height="3" fill="url(#glow)"/>
+<text x="76" y="247" font-family="monospace" font-size="21" fill="#4ade80">ASPIRING GAME DEVELOPER</text>
+<text x="76" y="280" font-family="monospace" font-size="15" fill="#a3e635">PYTHON · 2D GAMES · RPG WORLDS</text>
+<g transform="translate(890 112)" shape-rendering="crispEdges">
+  <rect x="38" y="0" width="76" height="18" fill="#16a34a"/>
+  <rect x="20" y="18" width="112" height="18" fill="#16a34a"/>
+  <rect x="2" y="36" width="148" height="36" fill="#4ade80"/>
+  <rect x="20" y="72" width="112" height="18" fill="#16a34a"/>
+  <rect x="38" y="90" width="76" height="18" fill="#16a34a"/>
+  <rect x="32" y="42" width="18" height="18" fill="#050805"/>
+  <rect x="26" y="48" width="30" height="6" fill="#050805"/>
+  <rect x="96" y="40" width="12" height="12" fill="#39ff14"/>
+  <rect x="114" y="52" width="12" height="12" fill="#a3e635"/>
+  <rect x="96" y="64" width="12" height="12" fill="#050805"/>
+  <rect x="78" y="52" width="12" height="12" fill="#f0fdf4"/>
+</g>
+<text x="900" y="255" font-family="monospace" font-size="13" letter-spacing="2" fill="#bbf7d0">PRESS START</text>
+<text x="1060" y="294" font-family="monospace" font-size="12" fill="#86efac">v0.1</text>
+</svg>
